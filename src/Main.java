@@ -43,7 +43,7 @@ public class Main {
             System.out.println("Всего работников в компании - " + person + " человек");
             var person2 = person + 94;
             var hoursByPerson = person2 *8;
-            System.out.println("Если в компании работает "+ person2 + " человек, то всего " + hoursByPerson + " часов работы может быть поделено между сотрудниками");
+            System.out.println("Если в компании работает "+ person2 + " человек,"+"\n"+"то всего " + hoursByPerson + " часов работы может быть поделено между сотрудниками");
 
         }
     }
