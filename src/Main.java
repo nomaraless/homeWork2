@@ -35,7 +35,7 @@ public class Main {
             System.out.println("Общая масса бойцов = " + sumWeight + " кг");
             System.out.println("Разница в массе = " +Math.abs(difWeight) + " кг" + "\n");
 
-            var remWeight = secondWeight / firstWeight;
+            var remWeight = secondWeight % firstWeight;
             System.out.println("Остаток от деления масс = " + remWeight + "\n");
 
             var hours = 640;
